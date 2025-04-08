@@ -31,7 +31,7 @@
   "mobileRightColumn": 37,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "onClick": "{{Api3.run().then(() => {\n  navigateTo(Api2.data.authUrl, {}, 'SAME_WINDOW');\n});}}",
+  "onClick": "{{finalMonkey.run(() => {\n  navigateTo('Page2', {}, 'SAME_WINDOW');\n}, () => {}, {});\nloginUtils.loginYGuardar();}}",
   "originalBottomRow": 58,
   "originalTopRow": 54,
   "parentColumnSpace": 19.28125,
